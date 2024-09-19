@@ -1,0 +1,29 @@
+position(20,20);
+
+down;
+for (i = 0; i < 3; i = i + 1) {
+    forward 50;
+    right 120º;           % triangulo equilatero
+}
+up;
+
+position(90,90);
+
+down;
+forward 70;
+right 111º;
+forward 50;  % triangulo isosceles
+right 111º;
+forward 70;
+up;
+
+position(200,500);
+
+down;
+right 90º;
+forward 50;
+left 90º;        %triangulo rectangulo
+forward 70;
+left 145º;
+forward 85;
+up;

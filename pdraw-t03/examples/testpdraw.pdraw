@@ -1,0 +1,36 @@
+real width = real(stdin "width: ");
+real height = real(stdin "height: ");
+
+define canvas Canvas1 "3 pens" (width,height);
+
+define pen PenType1 {
+   color = red;
+   position = (100,100);
+   orientation = 0º;
+   thickness = 5; 
+   pressure = -1; 
+};
+
+define pen PenType2 {
+   color = blue;
+   position = (10,10);
+   orientation = 0º;
+   thickness = 5; 
+   pressure = -1; 
+};
+
+define pen PenType3 {
+   color = green;
+   position = (int(width)//2,(int(height)//2)-(350));
+   orientation = 0º;
+   thickness = 10; 
+   pressure = -1; 
+};
+
+pen p1 = new PenType1;
+pen p2 = new PenType2;
+pen p3 = new PenType3;
+
+p1 <- execute "square.ipdraw";
+p2 <- execute "triangle.ipdraw";
+p3 <- execute "circle.ipdraw";

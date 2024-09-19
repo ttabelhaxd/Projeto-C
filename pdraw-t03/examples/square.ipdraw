@@ -1,0 +1,6 @@
+down;
+for (i = 0; i < 4; i = i + 1) {
+    forward 100;
+    right 90º;      %quadrado
+}
+up;

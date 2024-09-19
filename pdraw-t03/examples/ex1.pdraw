@@ -1,0 +1,32 @@
+define pen p1{
+    thickness ="invalid"; 
+};
+
+int x = 10;
+int x = 20;
+
+define pen PenType1 {
+    color = 12345;
+};
+
+
+define pen PenType2 {
+    thickness = "thick";
+};
+
+define pen PenType3 {
+    pressure = "high";
+};
+
+define pen PenType4 {
+    orientation = 45;
+};
+
+define pen PenType5 {
+    position = (10.5, 20.3);
+};
+
+int a = 10;
+a = "hello";
+
+

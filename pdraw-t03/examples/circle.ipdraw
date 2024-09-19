@@ -1,0 +1,6 @@
+down;
+for (i = 0; i < 360; i = i + 5) {
+    forward 10;
+    right 5º;     % circulo
+}
+up;
